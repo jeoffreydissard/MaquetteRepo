@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Enyo-Slab_Light';
+    src: url('Enyo-Slab_Light.ttf'),
+    url('Enyo-Slab_Light.otf');
+}
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+button{
+    background-color: #f47d31;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    margin: 0 0 30px 0;
+}
+.titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-family: 'Enyo-Slab_Light';
+    font-size: 3em;
+    color: darkgrey;
+    white-space: nowrap;
+    padding: 0px 30px 0px 00px;
+}
+.trait{
+    border-top: solid lightgrey 2px;
+    width: 100%;
+}
+.flex {
+    display:flex;
+}
+.gris{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+}
+
+
+/*------------------------ HEADER ------------------------*/
+
+
+header{
+    background-image: url(img/image-499666622.jpg);
+    color: white;
+}
+#logo{
+    list-style-type: none;
+}
+#menuhaut{
+    display: flex;
+    justify-content: space-between;
+}
+#menu li{
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;
+}
+#menuhaut ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin :auto;
+    padding: 30px 0px 0px;
+    flex-wrap: wrap;
+}
+#menuhaut a{
+    text-decoration: none;
+    color: white;
+}
+header h1, header p{
+    padding: 30px 0 30px 0;
+}
+
+
+/*------------------------ FINE FEATURES ------------------------*/
+
+
+#services article{
+    margin-bottom: 20px;
+}
+#services img{
+    float: left;
+    width:75px;
+    height:75px;
+    margin-right:20px;
+}
+#services h4{
+    margin-top: 0;
+    color: #737373;
+}
+#services p{
+    color: #737373;
+}
+
+
+
+/*------------------------ OUR DESIGN SAMPLES ------------------------*/
+
+#menubas ul {
+    display: flex;
+    align-items: center;
+    margin : 0px;
+    padding: 0px 0px 30px;
+    list-style-type: none;
+}
+#menubas li {
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+#menubas a{
+    text-decoration: none;
+    color: grey;
+}
+#images img{
+    width: 33%;
+    height: 33%;
+}
+
+
+/*------------------------ SECTION ORANGE ------------------------*/
+
+
+#orange{
+    background-color: #f47d31;
+    padding: 30px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
+    color: white;
+}
+#orange h2{
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    white-space: inherit;
+    color: white;
+}
+#orange button{
+    background-color: #dc702d;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+
+/*------------------------ OUR TEAM ------------------------*/
+
+
+#gens img{
+    width:100%;
+}
+.presentation{
+    width: 90%;
+}
+
+/*------------------------ STATIC CONTENT ------------------------*/
+
+
+.static{
+    background-image: url(img/image-195625538.jpg);
+    background-size: 100%;
+    margin: 30px 0px 30px 0px;
+    color: white;
+}
+.static h2{
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    white-space: inherit;
+    color: white;
+}
+.static p{
+    padding: 20px 0px;
+}
+
+
+/*------------------------ FORMULAIRE ------------------------*/
+
+
+.cinquante {
+    width: 50%;
+}
+input, textarea{
+    background-color: lightgrey;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.cinquante button{
+    display: inherit;
+    margin: 20px 0px;
+}
+
+
+/*------------------------ GET IN TOUCH ------------------------*/
+
+
+.fab{
+    color: lightgrey;
+    font-size: 2.5em;
+    padding: 30px 0px 30px 0px;
+}
+#info a{
+    color: #f47d31;
+}
+.contact p, .contact  h3, .contact h4, label{
+    color: #737373;
+}
+
+/*------------------------ FROM OUR BLOG ------------------------*/
+
+
+#enbas{
+    background-image: url(img/image-876206940.jpg);
+    margin: 30px 0px 0px 0px;
+}
+#enbas .gris{
+    margin: 30px 0px 0px 0px;
+}
+#enbas button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 30px 0px 0px 0px;
+}
+#enbas article{
+    width: 100%;
+    padding: 10px
+}
+
+
+/*------------------------ FOOTER ------------------------*/
+
+
+footer{
+    background-color: #242424;
+    color: #737373;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+}
